@@ -9,3 +9,17 @@
     3. Call the "boop" method on "cat" to make sure it
        works correctly.
 */
+
+
+// SOLUTION 1
+String.prototype.boop = () => {
+   console.log("Boop!");
+}
+
+
+// SOLUTION 2
+const str1 = "meow";
+const cat = str1;
+
+// SOLUTION 2
+cat.boop();

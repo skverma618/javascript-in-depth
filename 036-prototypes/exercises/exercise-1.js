@@ -10,3 +10,11 @@
 
     4. Does this make sense? Why?
 */
+
+// 1.
+console.log(Object.getOwnPropertyNames(Object.prototype))
+
+console.log(Object.getOwnPropertyNames(Array.prototype))
+// console.log(Object.getOwnPropertyNames(Array.__proto__))
+
+console.log(Object.getOwnPropertyNames(Array.__proto__))
